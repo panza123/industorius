@@ -35,7 +35,7 @@ export default function Home() {
       </section>
 
       <div className="w-full h-full m-auto bg-gray-200/90  flex flex-col justify-center items-center text-center">
-        <h2 className="text-3xl text-gray-600 mt-4">SEM TURPIS AMET SEMPER</h2>
+        <h2 className="text-3xl text-gray-600 mt-4 max-sm:text-[25px]">SEM TURPIS AMET SEMPER</h2>
         <p className="text-[15px] px-10   pt-5 md:px-8 lg:px-60 text-gray-500">
           In arcu accumsan arcu adiscing accumsan orci ac.Felis id emin aliquet.
           Accumsan ac integer lobortis commodo ornare aliquet accusman erat

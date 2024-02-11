@@ -3,7 +3,7 @@ import logo from '../assets/images/banner.jpg'
 import { Link } from 'react-router-dom'
 export default function Elements() {
   return (
-    <main className='w-full h-full  max-auto'>
+    <main className='w-full h-full  max-auto max-sm:overflow-hidden'>
      <section className='max-w-[1340px]  bg-gray-200/90  flex flex-col justify-center items-center relative -z-10 lg:w-[100vw]'>
       <div className='w-full h-[300px] relative '>
      <img src={logo} alt="" className='w-full h-full absolute 
@@ -27,9 +27,9 @@ export default function Elements() {
      '>
       
       
-       <div className='w-full h-full px-[20px] mt-[10px] '>
+       <div className='w-full h-full px-[20px] mt-[10px] max-sm:px-[40px]'>
  
-         <h3>Text</h3>
+         <h3 className='text-[20px] font-bold'>Text</h3>
          <p className='pt-[10px]'>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this
 									is <em>emphasized</em>.
 									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.

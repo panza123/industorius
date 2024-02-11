@@ -1,9 +1,9 @@
 import React from 'react'
 import logo from '../assets/images/banner.jpg'
-import { Link } from 'react-router-dom'
+
 export default function GenericPage() {
     return (
-        <main className='w-full h-ful max-auto'>
+        <main className='w-full h-ful max-auto max-sm:overflow-hidden'>
          <section className='max-w-[1340px]  bg-gray-200/90  flex flex-col justify-center items-center relative -z-10'>
           <div className='w-full h-[300px] relative '>
          <img src={logo} alt="" className='w-full h-full absolute 
@@ -26,7 +26,7 @@ export default function GenericPage() {
         
          '>
           
-          <div className='px-10 py-10 text-gray-700 :'>
+          <div className='px-10 py-10 text-gray-700 max-sm:px-[100px]'>
     
 						<header><h2 className='text-2xl font-bold'>Feugiat consequat</h2>
 						</header><p className='pt-3'>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Magna et cursus lorem faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod tempus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida lorem ipsum dolor sit amet dolor feugiat consequat. </p>

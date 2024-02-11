@@ -7,7 +7,7 @@ export default function Footer() {
 <section className='w-full grid grid-cols-1 text-gray-300 px-8 lg:grid-cols-3 pt-8 gap-[100px] ' >
     <div className='w-[400px]'>
 <h1 className='text-gray-200 text-[20px] lg: px-6text-3xl'>ACCUMSAN MONTES VIVERRA</h1>
-<p className=" pt-6 leading-6 text-gray-400">
+<p className=" pt-6 leading-6 text-gray-400 pr-[50px]">
           Nunc lacinia ante nunc ac loborits Lorem ipsum dolor sit amet
           consectetur adipisicing elit. Sit maxime fuga molestiae animi libero
           deleniti earum incidunt iusto reiciendis aperiam iste neque eligendi,
