@@ -7,6 +7,9 @@ export default function Navbar() {
   function handleClick() {
     setNav(!nav);
   }
+  function closeNavbar(){
+    setNav(false)
+  }
   return (
     // {NAVBAR}
     <header className="w-full h-[50px] bg-black m-auto ">
@@ -35,16 +38,24 @@ export default function Navbar() {
            text-3xl gap-3 px-5
            "
         >
-          <li className="hover:text-gray-100">
+          <li className="hover:text-gray-100" 
+          onClick={closeNavbar}
+          >
             <Link to='/home'>Home</Link>
             
           </li>
           <hr className="border-solid border-gray-700" />
-          <li className="hover:text-gray-100">
+          <li className="hover:text-gray-100"
+          onClick={closeNavbar}
+          
+          >
             <Link to='/elements'>Elements</Link>
           </li>
           <hr className="border-solid border-gray-700"   />
-          <li className="hover:text-gray-100" >
+          <li className="hover:text-gray-100" 
+          
+          onClick={closeNavbar}
+          >
             <Link to='/generic'>Generic</Link>
           </li>
         </ul>
